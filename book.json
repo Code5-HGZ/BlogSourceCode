@@ -1,0 +1,34 @@
+{
+    "plugins": [
+        "expandable-chapters",
+        "hide-element",
+        "back-to-top-button",
+        "splitter",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "insert-logo",
+        "custom-favicon",
+        "pageview-count",
+        "tbfed-pagefooter",
+        "popup"
+    ],
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [
+                ".gitbook-link",
+                ".pull-right"
+            ]
+        },
+        "insert-logo": {
+            "url": "/logo/logo2.png",
+            "style": "background: none; max-height: 50px; min-height: 30px"
+        },
+        "favicon": "/logo/icon.ico",
+        "tbfed-pagefooter": {
+            "copyright": "",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
