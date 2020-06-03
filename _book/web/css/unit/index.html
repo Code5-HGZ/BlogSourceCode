@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>常用功能封装 · GitBook</title>
+        <title>css单位 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -81,6 +81,8 @@
     <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    
+    <link rel="prev" href="../selector/" />
     
 
     </head>
@@ -195,9 +197,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.4.1.1" data-path="./">
+        <li class="chapter " data-level="1.4.1.1" data-path="../../javascript/functions/">
             
-                <a href="./">
+                <a href="../../javascript/functions/">
             
                     
                     常用功能封装
@@ -227,9 +229,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.2.1" data-path="../../css/properties/">
+        <li class="chapter " data-level="1.4.2.1" data-path="../properties/">
             
-                <a href="../../css/properties/">
+                <a href="../properties/">
             
                     
                     css属性
@@ -240,9 +242,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2.2" data-path="../../css/selector/">
+        <li class="chapter " data-level="1.4.2.2" data-path="../selector/">
             
-                <a href="../../css/selector/">
+                <a href="../selector/">
             
                     
                     css选择器
@@ -253,9 +255,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2.3" data-path="../../css/unit/">
+        <li class="chapter active" data-level="1.4.2.3" data-path="./">
             
-                <a href="../../css/unit/">
+                <a href="./">
             
                     
                     css单位
@@ -306,7 +308,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../../.." >常用功能封装</a>
+        <a href="../../.." >css单位</a>
     </h1>
 </div>
 
@@ -321,21 +323,70 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="js-&#x5E38;&#x7528;&#x51FD;&#x6570;">JS &#x5E38;&#x7528;&#x51FD;&#x6570;</h2>
+                                <h1 id="css-&#x5355;&#x4F4D;">CSS &#x5355;&#x4F4D;</h1>
 <blockquote>
-<p><strong>&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;&#xFF0C;&#x5176;&#x4F59;&#x5C0F;&#x5199;</strong></p>
-<pre><code class="lang-javascript"><span class="hljs-comment">/**
- * @param {string} str &#x8981;&#x8F6C;&#x6362;&#x7684;&#x5B57;&#x7B26;&#x4E32; 
- */</span>
-<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">capitalize</span>(<span class="hljs-params">str</span>) </span>{
-    str = str.toLowerCase().split(<span class="hljs-string">&quot;&quot;</span>);
-    str[<span class="hljs-number">0</span>] = str[<span class="hljs-number">0</span>].toUpperCase();
-    <span class="hljs-keyword">return</span> str.join(<span class="hljs-string">&quot;&quot;</span>);
-}
-</code></pre>
+<p>&#x7248;&#x6743;&#x8BF4;&#x660E;&#xFF1A;&#x672C;&#x6587;&#x53C2;&#x8003;&#x81EA;</p>
+<ul>
+<li>&#x725B;&#x5BA2;&#x7F51;&#xFF1A;<a href="https://www.nowcoder.com/tutorial/55/676dd04094ff4abe998821e624e163cb" target="_blank">https://www.nowcoder.com/tutorial/55/676dd04094ff4abe998821e624e163cb</a></li>
+<li>&#x83DC;&#x9E1F;&#x6559;&#x7A0B;&#xFF1A;<a href="https://www.runoob.com/cssref/css-units.html" target="_blank">https://www.runoob.com/cssref/css-units.html</a></li>
+</ul>
 </blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5355;&#x4F4D;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">%</td>
+<td style="text-align:left">&#x767E;&#x5206;&#x6BD4;</td>
+</tr>
+<tr>
+<td style="text-align:left">cm</td>
+<td style="text-align:left">&#x5398;&#x7C73;</td>
+</tr>
+<tr>
+<td style="text-align:left">mm</td>
+<td style="text-align:left">&#x6BEB;&#x7C73;</td>
+</tr>
+<tr>
+<td style="text-align:left">em</td>
+<td style="text-align:left">&#x4E0E;&#x5F53;&#x524D;&#x5B57;&#x4F53;&#x5927;&#x5C0F;&#x7B49;&#x503C;&#xFF0C;&#x5982;&#x679C;&#x8BBE;&#x7F6E;&#x4E86;&#x5B57;&#x4F53;&#x5927;&#x5C0F;&#xFF0C;&#x5219;em&#x4E5F;&#x4F1A;&#x968F;&#x7740;&#x6539;&#x53D8;</td>
+</tr>
+<tr>
+<td style="text-align:left">ex</td>
+<td style="text-align:left">&#x5B57;&#x4F53;&#x5C3A;&#x5BF8;&#x7684;&#x4E00;&#x534A;&#x5927;&#x5C0F;</td>
+</tr>
+<tr>
+<td style="text-align:left">in</td>
+<td style="text-align:left">&#x82F1;&#x5BF8;</td>
+</tr>
+<tr>
+<td style="text-align:left">pt</td>
+<td style="text-align:left">&#x78C5;&#xFF08;1pt = 1/72in&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">pc</td>
+<td style="text-align:left">&#x6D3E;&#x5361;&#xFF08;pc = 1/6in&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">px</td>
+<td style="text-align:left">&#x50CF;&#x7D20;</td>
+</tr>
+<tr>
+<td style="text-align:left">vw</td>
+<td style="text-align:left">&#x89C6;&#x7A97;&#x5BBD;&#x5EA6;&#x7684;1%</td>
+</tr>
+<tr>
+<td style="text-align:left">vh</td>
+<td style="text-align:left">&#x89C6;&#x7A97;&#x9AD8;&#x5EA6;&#x7684;1%</td>
+</tr>
+</tbody>
+</table>
 <footer class="page-footer"><span class="copyright">powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x7AE0;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2020-06-02 10:58:14
+2020-06-03 10:57:40
 </span></footer>
 <script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
                                 
@@ -364,6 +415,10 @@
 
             
                 
+                <a href="../selector/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: css选择器">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
                 
             
         
@@ -372,7 +427,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"常用功能封装","level":"1.4.1.1","depth":3,"next":{"title":"CSS","level":"1.4.2","depth":2,"ref":"","articles":[{"title":"css属性","level":"1.4.2.1","depth":3,"path":"web/css/properties/index.md","ref":"web/css/properties/index.md","articles":[]},{"title":"css选择器","level":"1.4.2.2","depth":3,"path":"web/css/selector/index.md","ref":"web/css/selector/index.md","articles":[]},{"title":"css单位","level":"1.4.2.3","depth":3,"path":"web/css/unit/index.md","ref":"web/css/unit/index.md","articles":[]}]},"previous":{"title":"JavaScript","level":"1.4.1","depth":2,"ref":"","articles":[{"title":"常用功能封装","level":"1.4.1.1","depth":3,"path":"web/javascript/functions/index.md","ref":"web/javascript/functions/index.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","hide-element","back-to-top-button","splitter","-lunr","-search","search-pro","insert-logo","custom-favicon","pageview-count","tbfed-pagefooter","popup","livereload"],"pluginsConfig":{"tbfed-pagefooter":{"copyright":"","modify_label":"该文章修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"livereload":{},"splitter":{},"search-pro":{},"popup":{},"hide-element":{"elements":[".gitbook-link",".pull-right"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"/logo/icon.ico","back-to-top-button":{},"pageview-count":{},"custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 50px; min-height: 30px","url":"/logo/logo2.png"},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"web/javascript/functions/index.md","mtime":"2020-06-02T02:58:14.097Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-03T03:20:12.530Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"css单位","level":"1.4.2.3","depth":3,"previous":{"title":"css选择器","level":"1.4.2.2","depth":3,"path":"web/css/selector/index.md","ref":"web/css/selector/index.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","hide-element","back-to-top-button","splitter","-lunr","-search","search-pro","insert-logo","custom-favicon","pageview-count","tbfed-pagefooter","popup","livereload"],"pluginsConfig":{"tbfed-pagefooter":{"copyright":"","modify_label":"该文章修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"livereload":{},"splitter":{},"search-pro":{},"popup":{},"hide-element":{"elements":[".gitbook-link",".pull-right"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"/logo/icon.ico","back-to-top-button":{},"pageview-count":{},"custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 50px; min-height: 30px","url":"/logo/logo2.png"},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"web/css/unit/index.md","mtime":"2020-06-03T02:57:40.756Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-03T03:20:12.530Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
